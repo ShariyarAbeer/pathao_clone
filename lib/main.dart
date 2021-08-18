@@ -27,8 +27,8 @@ class MyApp extends StatelessWidget {
                 child: TripDetails(),
                 type: PageTransitionType.rightToLeft,
                 settings: settings,
-                duration: Duration(milliseconds: 600),
-                reverseDuration: Duration(milliseconds: 600),
+                duration: Duration(milliseconds: 400),
+                reverseDuration: Duration(milliseconds: 400),
               );
               break;
             case '/tripDetailsCancelled':
@@ -36,8 +36,8 @@ class MyApp extends StatelessWidget {
                 child: TripDeatailsCancelled(),
                 type: PageTransitionType.rightToLeft,
                 settings: settings,
-                duration: Duration(milliseconds: 600),
-                reverseDuration: Duration(milliseconds: 600),
+                duration: Duration(milliseconds: 400),
+                reverseDuration: Duration(milliseconds: 400),
               );
               break;
             default:
